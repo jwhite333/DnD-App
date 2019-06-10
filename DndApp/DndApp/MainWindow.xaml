@@ -5,8 +5,75 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DndApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="MainWindow" Height="450" Width="800"
+        SizeChanged="SizeChange">
+    <Grid Name="MainWindowGrid">
+        <StackPanel HorizontalAlignment="Right"
+                    VerticalAlignment="Top"
+                    Margin="{Binding Path=MajorStatIcons.Margin, IsAsync=True, Mode=OneWay}">
+            <Canvas Name="IconStrCanvas"
+                    HorizontalAlignment="Left"
+                    Height="{Binding Path=MajorStatIcons.Size, IsAsync=True, Mode=OneWay}"
+                    Width="{Binding Path=MajorStatIcons.Size, IsAsync=True, Mode=OneWay}"
+                    Margin="0,0,0,0"
+                    VerticalAlignment="Top">
+                <Image Source="C:\Users\jonny\Documents\GitHub\DnD-App\DndApp\DndApp\OnlineResources\shield.png"
+                       Width="{Binding ActualWidth, ElementName=IconStrCanvas, Mode=OneWay}"
+                       Height="{Binding ActualHeight, ElementName=IconStrCanvas, Mode=OneWay}"></Image>
+                <Border
+                        BorderBrush="{x:Null}"
+                        Width="{Binding ActualWidth, ElementName=IconStrCanvas, Mode=OneWay}"
+                        Height="{Binding ActualHeight, ElementName=IconStrCanvas, Mode=OneWay}">
+                    <StackPanel Name="StackPanel1">
+                        <TextBlock Text="Strength"
+                                   Foreground="White"
+                                   HorizontalAlignment="Center"
+                                   FontSize="{Binding Path=MajorStatIcons.FontSize}"
+                                   Margin="0,18 ,0,0"
+                                   FontWeight="Bold">
+                        </TextBlock>
+                        <TextBlock
+                            Text="16"
+                            Foreground="White"
+                            FontSize="8"
+                            FontWeight="Bold"
+                            Margin="0,2,0,0"
+                            HorizontalAlignment="Center">
+                        </TextBlock>
+                    </StackPanel>
+                </Border>
+            </Canvas>
+            <Canvas Name="IconDexCanvas"
+                    HorizontalAlignment="Left"
+                    Height="{Binding Path=MajorStatIcons.Size, IsAsync=True, Mode=OneWay}"
+                    Width="{Binding Path=MajorStatIcons.Size, IsAsync=True, Mode=OneWay}"
+                    Margin="0,0,0,0"
+                    VerticalAlignment="Top">
+                <Image Source="C:\Users\jonny\Documents\GitHub\DnD-App\DndApp\DndApp\OnlineResources\shield.png"
+                       Width="{Binding ActualWidth, ElementName=IconDexCanvas, Mode=OneWay}"
+                       Height="{Binding ActualHeight, ElementName=IconDexCanvas, Mode=OneWay}"></Image>
+                <Border BorderBrush="{x:Null}"
+                        Width="{Binding ActualWidth, ElementName=IconDexCanvas, Mode=OneWay}"
+                        Height="{Binding ActualHeight, ElementName=IconDexCanvas, Mode=OneWay}">
+                    <StackPanel Name="StackPanel2">
+                        <TextBlock Text="Dexterity"
+                                   Foreground="White"
+                                   HorizontalAlignment="Center"
+                                   FontSize="7"
+                                   Margin="0,18,0,0"
+                                   FontWeight="Bold">
+                        </TextBlock>
+                        <TextBlock
+                            Text="16"
+                            Foreground="White"
+                            FontSize="8"
+                            FontWeight="Bold"
+                            Margin="0,2,0,0"
+                            HorizontalAlignment="Center">
+                        </TextBlock>
+                    </StackPanel>
+                </Border>
+            </Canvas>
+        </StackPanel>
     </Grid>
 </Window>
