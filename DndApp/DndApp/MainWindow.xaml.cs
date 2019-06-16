@@ -20,26 +20,54 @@ namespace DndApp
     /// </summary>
     public partial class MainWindow : Window
     {
-        Timer resizeTimer = new Timer(100) { Enabled = false };
         private static UIBindings.UIContext context;
+        ScaleTransform scaleTransform;
         public MainWindow()
         {
             InitializeComponent();
             context = new UIBindings.UIContext();
             DataContext = context.Get(this);
-            resizeTimer.Elapsed += new ElapsedEventHandler(ResizingDone);
-        }
 
-        void ResizingDone(object sender, ElapsedEventArgs e)
-        {
-            resizeTimer.Stop();
-            MainWindow.DataContext = context.Get(this);
+            scaleTransform = new ScaleTransform();
+            WorldMapImage.LayoutTransform = scaleTransform;
         }
 
         public void SizeChange(object sender, SizeChangedEventArgs e)
         {
-            resizeTimer.Stop();
-            resizeTimer.Start();
+            return;
         }
+
+        public void SliderMouseOver(object sender, EventArgs e)
+        {
+            SliderTooltip.IsOpen = true;
+        }
+        public void SliderMouseLeave(object sender, EventArgs e)
+        {
+            SliderTooltip.IsOpen = false;
+        }
+
+
+        // World Map
+
+        public void MapMouseLeftDown(object sender, MouseButtonEventArgs e)
+        {
+            return;
+        }
+
+        public void ZoomSliderValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            Console.WriteLine("Trying to change resolution");
+            Binding bindX = new Binding();
+            bindX.Source = ZoomSlider;
+            bindX.Path = new PropertyPath("Value");
+            BindingOperations.SetBinding(scaleTransform, ScaleTransform.ScaleXProperty, bindX);
+            Binding bindY = new Binding();
+            bindY.Source = ZoomSlider;
+            bindY.Path = new PropertyPath("Value");
+            BindingOperations.SetBinding(scaleTransform, ScaleTransform.ScaleYProperty, bindY);
+
+        }
+
+        
     }
 }

@@ -96,9 +96,17 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="OnlineResources\WorldMap.png" />
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="OnlineResources\shield.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="OnlineResources\old_paper.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="OnlineResources\shield-no-bg.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
