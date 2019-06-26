@@ -22,6 +22,7 @@ namespace DndApp
     {
         private static UIBindings.UIContext context;
         ScaleTransform scaleTransform;
+        Point start, origin;
         public MainWindow()
         {
             InitializeComponent();
@@ -46,13 +47,7 @@ namespace DndApp
             SliderTooltip.IsOpen = false;
         }
 
-
         // World Map
-
-        public void MapMouseLeftDown(object sender, MouseButtonEventArgs e)
-        {
-            return;
-        }
 
         public void ZoomSliderValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
@@ -68,6 +63,41 @@ namespace DndApp
 
         }
 
-        
+        private void image_MouseWheel(object sender, MouseWheelEventArgs e)
+        {
+            var st = scale_t;
+            double zoom = e.Delta > 0 ? 2 : -2;
+            st.ScaleX += zoom;
+            st.ScaleY += zoom;
+            if (st.ScaleX < 1 || st.ScaleY < 1)
+            {
+                st.ScaleX = 1;
+                st.ScaleY = 1;
+            }
+        }
+
+        public void MapMouseLeftDown(object sender, MouseButtonEventArgs e)
+        {
+            var tt = translate_t;
+            start = e.GetPosition(WorldMapBorder);
+            origin = new Point(tt.X, tt.Y);
+            WorldMapImage.CaptureMouse();
+        }
+
+        private void image_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (WorldMapImage.IsMouseCaptured)
+            {
+                var tt = translate_t;
+                Vector v = start - e.GetPosition(WorldMapBorder);
+                tt.X = origin.X - v.X;
+                tt.Y = origin.Y - v.Y;
+            }
+        }
+
+        private void image_release(object sender, MouseButtonEventArgs e)
+        {
+            WorldMapImage.ReleaseMouseCapture();
+        }
     }
 }

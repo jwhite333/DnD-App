@@ -316,7 +316,16 @@
                            Stretch="Fill"
                            RenderTransformOrigin="0.5,0.5"
                            Source="OnlineResources\WorldMap.png"
-                           MouseLeftButtonDown="MapMouseLeftDown">
+                           MouseLeftButtonDown="MapMouseLeftDown"
+                           MouseWheel="image_MouseWheel"
+                           MouseMove="image_MouseMove"
+                           MouseLeftButtonUp="image_release">
+                        <Image.RenderTransform>
+                            <TransformGroup x:Name="group">
+                                <ScaleTransform x:Name="scale_t"/>
+                                <TranslateTransform x:Name="translate_t"/>
+                            </TransformGroup>
+                        </Image.RenderTransform>
                     </Image>
                 </Border>
             </Viewbox>
