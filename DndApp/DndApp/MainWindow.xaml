@@ -12,301 +12,217 @@
             <ImageBrush ImageSource="OnlineResources\old_paper.jpg"/>
         </Grid.Background>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="33*"/>
-            <ColumnDefinition Width="34*"/>
-            <ColumnDefinition Width="3*"/>
-            <ColumnDefinition Width="2*"/>
-            <ColumnDefinition Width="3*"/>
-            <ColumnDefinition Width="6*"/>
-            <ColumnDefinition Width="2*"/>
-            <ColumnDefinition Width="2*"/>
-            <ColumnDefinition Width="2*"/>
-            <ColumnDefinition Width="12*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="2.5*"/>
-            <RowDefinition Height="2*"/>
-            <RowDefinition Height="2*"/>
-            <RowDefinition Height="3.5*"/>
-            <RowDefinition Height="2.5*"/>
-            <RowDefinition Height="2*"/>
-            <RowDefinition Height="2*"/>
-            <RowDefinition Height="2.5*"/>
             <RowDefinition Height="1*"/>
-            <RowDefinition Height="2.5*"/>
-            <RowDefinition Height="2*"/>
-            <RowDefinition Height="2*"/>
-            <RowDefinition Height="3.5*"/>
-            <RowDefinition Height="2.5*"/>
-            <RowDefinition Height="2*"/>
-            <RowDefinition Height="2*"/>
-            <RowDefinition Height="3.5*"/>
-            <RowDefinition Height="2.5*"/>
-            <RowDefinition Height="2*"/>
-            <RowDefinition Height="2*"/>
-            <RowDefinition Height="3.5*"/>
-            <RowDefinition Height="2.5*"/>
-            <RowDefinition Height="2*"/>
-            <RowDefinition Height="2*"/>
-            <RowDefinition Height="3.5*"/>
-
-            <RowDefinition Height="10*"/>
-            <RowDefinition Height="10*"/>
-            <RowDefinition Height="10*"/>
-            <RowDefinition Height="10*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
-
-
-        <!--  Strength Icon -->
-        <!--<Canvas Name="StrengthIconCanvas"
-                Grid.Column="2"
-                Grid.Row="0"
-                Grid.ColumnSpan="3"
-                Grid.RowSpan="4"
-                Width="auto"
-                Height="auto">
-            <Image Canvas.Left="auto"
-                   Source="OnlineResources\shield-no-bg.png"
-                   Width="{Binding ActualWidth, ElementName=StrengthIconCanvas, Mode=OneWay}"
-                   Height="{Binding ActualHeight, ElementName=StrengthIconCanvas, Mode=OneWay}"/>
-        </Canvas>-->
-        <Image
-            Name="StrengthIconCanvas"
-            Grid.Column="2"
-            Grid.Row="0"
-            Grid.ColumnSpan="3"
-            Grid.RowSpan="4"
-            Width="auto"
-            Height="auto"
-            Source="OnlineResources\shield-no-bg.png"/>
-        <Viewbox
-            Grid.Column="3"
-            Grid.Row="1"
-            Width="auto"
-            Height="auto"
-            DockPanel.Dock="Bottom">
-            <TextBlock
-                Text="Str"
-                Foreground="White"
-                FontWeight="Bold">
-            </TextBlock>
-        </Viewbox>
-        <Viewbox
-            Grid.Column="3"
-            Grid.Row="2"
-            Width="auto"
-            Height="auto"
-            VerticalAlignment="Center"
-            HorizontalAlignment="Center"
-            DockPanel.Dock="Bottom">
-            <TextBlock
-                Text="16"
-                Foreground="Red">
-            </TextBlock>
-        </Viewbox>
-
-        <!--  Dexterity Icon -->
-        <Canvas Name="DexterityIconCanvas"
-                Grid.Column="2"
-                Grid.Row="4"
-                Grid.ColumnSpan="3"
-                Grid.RowSpan="5"
-                Width="auto"
-                Height="auto">
-            <Image Canvas.Left="auto"
-                   Source="OnlineResources\shield-no-bg.png"
-                   Width="{Binding ActualWidth, ElementName=DexterityIconCanvas, Mode=OneWay}"
-                   Height="{Binding ActualHeight, ElementName=DexterityIconCanvas, Mode=OneWay}"/>
-        </Canvas>
-        <Viewbox
-            Grid.Column="3"
-            Grid.Row="5"
-            Width="auto"
-            Height="auto"
-            DockPanel.Dock="Bottom">
-            <TextBlock
-                Text="Dex"
-                Foreground="White"
-                FontWeight="Bold">
-            </TextBlock>
-        </Viewbox>
-        <Viewbox
-            Grid.Column="3"
-            Grid.Row="6"
-            Width="auto"
-            Height="auto"
-            VerticalAlignment="Center"
-            HorizontalAlignment="Center"
-            DockPanel.Dock="Bottom">
-            <TextBlock
-                Text="14"
-                Foreground="Orange">
-            </TextBlock>
-        </Viewbox>
-
-        <!--  Constitution Icon -->
-        <Canvas Name="ConstitutionIconCanvas"
-                Grid.Column="2"
-                Grid.Row="9"
-                Grid.ColumnSpan="3"
-                Grid.RowSpan="4"
-                Width="auto"
-                Height="auto">
-            <Image Canvas.Left="auto"
-                   Source="OnlineResources\shield-no-bg.png"
-                   Width="{Binding ActualWidth, ElementName=ConstitutionIconCanvas, Mode=OneWay}"
-                   Height="{Binding ActualHeight, ElementName=ConstitutionIconCanvas, Mode=OneWay}"/>
-        </Canvas>
-        <Viewbox
-            Grid.Column="3"
-            Grid.Row="10"
-            Width="auto"
-            Height="auto"
-            DockPanel.Dock="Bottom">
-            <TextBlock
-                Text="Con"
-                Foreground="White"
-                FontWeight="Bold">
-            </TextBlock>
-        </Viewbox>
-        <Viewbox
-            Grid.Column="3"
-            Grid.Row="11"
-            Width="auto"
-            Height="auto"
-            VerticalAlignment="Center"
-            HorizontalAlignment="Center"
-            DockPanel.Dock="Bottom">
-            <TextBlock
-                Text="12"
-                Foreground="LightGreen">
-            </TextBlock>
-        </Viewbox>
-
-        <!-- Intelligence Icon -->
-        <Canvas Name="IntelligenceIconCanvas"
-                Grid.Column="2"
-                Grid.Row="13"
-                Grid.ColumnSpan="3"
-                Grid.RowSpan="4"
-                Width="auto"
-                Height="auto">
-            <Image Canvas.Left="auto"
-                   Source="OnlineResources\shield-no-bg.png"
-                   Width="{Binding ActualWidth, ElementName=IntelligenceIconCanvas, Mode=OneWay}"
-                   Height="{Binding ActualHeight, ElementName=IntelligenceIconCanvas, Mode=OneWay}"/>
-        </Canvas>
-        <Viewbox
-            Grid.Column="3"
-            Grid.Row="14"
-            Width="auto"
-            Height="auto"
-            DockPanel.Dock="Bottom">
-            <TextBlock
-                Text="Int"
-                Foreground="White"
-                FontWeight="Bold">
-            </TextBlock>
-        </Viewbox>
-        <Viewbox
-            Grid.Column="3"
-            Grid.Row="15"
-            Width="auto"
-            Height="auto"
-            VerticalAlignment="Center"
-            HorizontalAlignment="Center"
-            DockPanel.Dock="Bottom">
-            <TextBlock
-                Text="12"
-                Foreground="Yellow">
-            </TextBlock>
-        </Viewbox>
-
-        <!-- Wisdom Icon -->
-        <Canvas Name="WisdomIconCanvas"
-                Grid.Column="2"
-                Grid.Row="17"
-                Grid.ColumnSpan="3"
-                Grid.RowSpan="4"
-                Width="auto"
-                Height="auto">
-            <Image Canvas.Left="auto"
-                   Source="OnlineResources\shield-no-bg.png"
-                   Width="{Binding ActualWidth, ElementName=WisdomIconCanvas, Mode=OneWay}"
-                   Height="{Binding ActualHeight, ElementName=WisdomIconCanvas, Mode=OneWay}"/>
-        </Canvas>
-        <Viewbox
-            Grid.Column="3"
-            Grid.Row="18"
-            Width="auto"
-            Height="auto"
-            DockPanel.Dock="Bottom">
-            <TextBlock
-                Text="Wis"
-                Foreground="White"
-                FontWeight="Bold">
-            </TextBlock>
-        </Viewbox>
-        <Viewbox
-            Grid.Column="3"
-            Grid.Row="19"
-            Width="auto"
-            Height="auto"
-            VerticalAlignment="Center"
-            HorizontalAlignment="Center"
-            DockPanel.Dock="Bottom">
-            <TextBlock
-                Text="12"
-                Foreground="LightBlue">
-            </TextBlock>
-        </Viewbox>
-
-        <!-- Charisma Icon -->
-        <Canvas Name="CharismaIconCanvas"
-                Grid.Column="2"
-                Grid.Row="21"
-                Grid.ColumnSpan="3"
-                Grid.RowSpan="4"
-                Width="auto"
-                Height="auto">
-            <Image Canvas.Left="auto"
-                   Source="OnlineResources\shield-no-bg.png"
-                   Width="{Binding ActualWidth, ElementName=CharismaIconCanvas, Mode=OneWay}"
-                   Height="{Binding ActualHeight, ElementName=CharismaIconCanvas, Mode=OneWay}"/>
-        </Canvas>
-        <Viewbox
-            Grid.Column="3"
-            Grid.Row="22"
-            Width="auto"
-            Height="auto"
-            DockPanel.Dock="Bottom">
-            <TextBlock
-                Text="Cha"
-                Foreground="White"
-                FontWeight="Bold">
-            </TextBlock>
-        </Viewbox>
-        <Viewbox
-            Grid.Column="3"
-            Grid.Row="23"
-            Width="auto"
-            Height="auto"
-            VerticalAlignment="Center"
-            HorizontalAlignment="Center"
-            DockPanel.Dock="Bottom">
-            <TextBlock
-                Text="12"
-                Foreground="Magenta">
-            </TextBlock>
-        </Viewbox>
 
 
         <!-- Map -->
         <DockPanel
                 Grid.Column="0"
-                Grid.ColumnSpan="2"
-                Grid.Row="0"
-                Grid.RowSpan="24">
+                Grid.ColumnSpan="55"
+                Grid.Row="16"
+                Grid.RowSpan="50">
             <Viewbox
                 Name="WorldMap"
                 Stretch="Fill">
@@ -354,6 +270,208 @@
                 <TextBox Text="Zoom"/>
             </Viewbox>
         </Popup>
+
+
+        <!-- Dragon Head -->
+        <Viewbox Name="DragonHeadImage"
+                 Grid.Column="2"
+                 Grid.ColumnSpan="20"
+                 Grid.Row="0"
+                 Grid.RowSpan="20">
+            <Image Source="pack://application:,,,/OnlineResources/CharacterSheet/DndDragonTop.png"></Image>
+        </Viewbox>
+        
+        <!-- Dragon Tail -->
+        <Viewbox Name="DragonTailImage"
+                 Grid.Column="43"
+                 Grid.ColumnSpan="30"
+                 Grid.Row="56"
+                 Grid.RowSpan="16">
+            <Image Source="pack://application:,,,/OnlineResources/CharacterSheet/DndDragonBottom.png"></Image>
+        </Viewbox>
+        
+        <!-- Name Box -->
+        <Viewbox Name="NameBorderImage"
+                 Grid.Column="25"
+                 Grid.ColumnSpan="20"
+                 Grid.Row="4"
+                 Grid.RowSpan="10">
+            <Image Source="pack://application:,,,/OnlineResources/CharacterSheet/DnDLongBox2.png"></Image>
+        </Viewbox>
+
+        <!-- Proficiency Box -->
+        <Viewbox Name="ProficiencyImage"
+                 Grid.Column="56"
+                 Grid.ColumnSpan="15"
+                 Grid.Row="16"
+                 Grid.RowSpan="10">
+            <Image Source="pack://application:,,,/OnlineResources/CharacterSheet/DndLongBox.png"></Image>
+        </Viewbox>
+
+        <!-- Proficiency2 Box -->
+        <Viewbox Name="Proficiency2Image"
+                 Grid.Column="56"
+                 Grid.ColumnSpan="15"
+                 Grid.Row="24"
+                 Grid.RowSpan="10">
+            <Image Source="pack://application:,,,/OnlineResources/CharacterSheet/DndLongBox.png"></Image>
+        </Viewbox>
+
+        <!-- Proficiency3 Box -->
+        <Viewbox Name="Proficiency3Image"
+                 Grid.Column="56"
+                 Grid.ColumnSpan="15"
+                 Grid.Row="32"
+                 Grid.RowSpan="10">
+            <Image Source="pack://application:,,,/OnlineResources/CharacterSheet/DndLongBox.png"></Image>
+        </Viewbox>
+
+        <!-- Armor Class Box -->
+        <Viewbox Name="ArmorClassImage"
+                 Grid.Column="56"
+                 Grid.ColumnSpan="7"
+                 Grid.Row="42"
+                 Grid.RowSpan="10">
+            <Image Source="pack://application:,,,/OnlineResources/CharacterSheet/DndHpBox.png"></Image>
+        </Viewbox>
+
+        <!-- Speed Box -->
+        <Viewbox Name="SpeedImage"
+                 Grid.Column="63"
+                 Grid.ColumnSpan="7"
+                 Grid.Row="42"
+                 Grid.RowSpan="10">
+            <Image Source="pack://application:,,,/OnlineResources/CharacterSheet/DndSpeedBox.png"></Image>
+        </Viewbox>
+
+        <!-- Abilities Box -->
+        <Viewbox Name="AbilitiesImage"
+                 Grid.Column="72"
+                 Grid.ColumnSpan="28"
+                 Grid.Row="15"
+                 Grid.RowSpan="50">
+            <Image Source="pack://application:,,,/OnlineResources/CharacterSheet/DndSavingThrowBox.png"></Image>
+        </Viewbox>
+
+        <!-- Items Box -->
+        <Viewbox Name="ItemsImage"
+                 Grid.Column="0"
+                 Grid.ColumnSpan="40"
+                 Grid.Row="66"
+                 Grid.RowSpan="12">
+            <Image Source="pack://application:,,,/OnlineResources/CharacterSheet/DnDNameBoxModified.png"></Image>
+        </Viewbox>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--  Strength Icon -->
+        <Viewbox Name="StrengthIconImage"
+            Grid.Column="48"
+            Grid.Row="3"
+            Grid.ColumnSpan="8"
+            Grid.RowSpan="12">
+            <Image Source="pack://application:,,,/OnlineResources/Icons/shield-no-bg.png"></Image>
+        </Viewbox>
+
+        <!--  Dexterity Icon -->
+        <Viewbox Name="DexterityIconImage"
+            Grid.Column="56"
+            Grid.Row="3"
+            Grid.ColumnSpan="8"
+            Grid.RowSpan="12">
+            <Image Source="pack://application:,,,/OnlineResources/Icons/shield-no-bg.png"></Image>
+        </Viewbox>
+        
+        <!--  Constitution Icon -->
+        <Viewbox Name="ConstitutionIconImage"
+            Grid.Column="64"
+            Grid.Row="3"
+            Grid.ColumnSpan="8"
+            Grid.RowSpan="12">
+            <Image Source="pack://application:,,,/OnlineResources/Icons/shield-no-bg.png"></Image>
+        </Viewbox>
+
+        <!--  Intelligence Icon -->
+        <Viewbox Name="IntelligenceIconImage"
+            Grid.Column="72"
+            Grid.Row="3"
+            Grid.ColumnSpan="8"
+            Grid.RowSpan="12">
+            <Image Source="pack://application:,,,/OnlineResources/Icons/shield-no-bg.png"></Image>
+        </Viewbox>
+
+        <!--  Wisdom Icon -->
+        <Viewbox Name="WisdomIconImage"
+            Grid.Column="80"
+            Grid.Row="3"
+            Grid.ColumnSpan="8"
+            Grid.RowSpan="12">
+            <Image Source="pack://application:,,,/OnlineResources/Icons/shield-no-bg.png"></Image>
+        </Viewbox>
+
+        <!--  Charisma Icon -->
+        <Viewbox Name="CharismaIconImage"
+            Grid.Column="88"
+            Grid.Row="3"
+            Grid.ColumnSpan="8"
+            Grid.RowSpan="12">
+            <Image Source="pack://application:,,,/OnlineResources/Icons/shield-no-bg.png"></Image>
+        </Viewbox>
+
+        <!--  Dexterity Icon - Old --><!--
+        <Canvas Name="DexterityIconCanvas"
+                Grid.Column="2"
+                Grid.Row="4"
+                Grid.ColumnSpan="3"
+                Grid.RowSpan="5"
+                Width="auto"
+                Height="auto">
+            <Image Canvas.Left="auto"
+                   Source="OnlineResources\shield-no-bg.png"
+                   Width="{Binding ActualWidth, ElementName=DexterityIconCanvas, Mode=OneWay}"
+                   Height="{Binding ActualHeight, ElementName=DexterityIconCanvas, Mode=OneWay}"/>
+        </Canvas>
+        <Viewbox
+            Grid.Column="3"
+            Grid.Row="5"
+            Width="auto"
+            Height="auto"
+            DockPanel.Dock="Bottom">
+            <TextBlock
+                Text="Dex"
+                Foreground="White"
+                FontWeight="Bold">
+            </TextBlock>
+        </Viewbox>
+        <Viewbox
+            Grid.Column="3"
+            Grid.Row="6"
+            Width="auto"
+            Height="auto"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
+            DockPanel.Dock="Bottom">
+            <TextBlock
+                Text="14"
+                Foreground="Orange">
+            </TextBlock>
+        </Viewbox>-->
+
+
+
+
 
         <!-- Item Tree -->
         <TreeView
@@ -466,17 +584,6 @@
             </Viewbox>
         </DockPanel>
 
-
-
-        <StackPanel
-            Grid.Column="5"
-            Grid.ColumnSpan="4"
-            Grid.Row="9"
-            Grid.RowSpan="16"
-            Background="Wheat"
-            Height="auto"
-            Width="auto">
-        </StackPanel>
 
 
 
