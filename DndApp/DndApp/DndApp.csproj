@@ -14,6 +14,21 @@
     <WarningLevel>4</WarningLevel>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -55,6 +70,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="UIBindings\MajorStatsBindings.cs" />
+    <Compile Include="UIBindings\UIBindings.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -93,6 +110,53 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="OnlineResources\WorldMap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="OnlineResources\old_paper.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="OnlineResources\CharacterSheet\DndDragonBottom.png" />
+    <Resource Include="OnlineResources\CharacterSheet\DndDragonTop.png" />
+    <Resource Include="OnlineResources\CharacterSheet\DndHpBox.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="OnlineResources\CharacterSheet\DndLongBox.png" />
+    <Resource Include="OnlineResources\CharacterSheet\DnDLongBox2.png" />
+    <Resource Include="OnlineResources\CharacterSheet\DnDNameBox.png" />
+    <Resource Include="OnlineResources\CharacterSheet\DndSavingThrowBox.png" />
+    <Resource Include="OnlineResources\CharacterSheet\DndSpeedBox.png" />
+    <Resource Include="OnlineResources\CharacterSheet\DndStrengthBox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="OnlineResources\Icons\DndAttackIcon.png" />
+    <Resource Include="OnlineResources\Icons\DndBackpack.png" />
+    <Resource Include="OnlineResources\Icons\DndBowIcon.png" />
+    <Resource Include="OnlineResources\Icons\DndElectrocute.png" />
+    <Resource Include="OnlineResources\Icons\DnDLevelUp.png" />
+    <Resource Include="OnlineResources\Icons\DnDSnooze.jpg" />
+    <Resource Include="OnlineResources\Icons\shield.png" />
+    <Resource Include="OnlineResources\Icons\swordIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="OnlineResources\Icons\shield-no-bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="OnlineResources\CharacterSheet\DnDNameBoxModified.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

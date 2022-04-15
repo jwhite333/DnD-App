@@ -5,8 +5,591 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DndApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" Height="450" Width="800"
+        SizeChanged="SizeChange">
+    <Grid Name="MainWindowGrid">
+        <Grid.Background>
+            <ImageBrush ImageSource="OnlineResources\old_paper.jpg"/>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+
+
+        <!-- Map -->
+        <DockPanel
+                Grid.Column="0"
+                Grid.ColumnSpan="55"
+                Grid.Row="16"
+                Grid.RowSpan="50">
+            <Viewbox
+                Name="WorldMap"
+                Stretch="Fill">
+                <Border x:Name="WorldMapBorder"
+                        ClipToBounds="True">
+                    <Image x:Name="WorldMapImage"
+                           Stretch="Fill"
+                           RenderTransformOrigin="0.5,0.5"
+                           Source="OnlineResources\WorldMap.png"
+                           MouseLeftButtonDown="MapMouseLeftDown"
+                           MouseWheel="image_MouseWheel"
+                           MouseMove="image_MouseMove"
+                           MouseLeftButtonUp="image_release">
+                        <Image.RenderTransform>
+                            <TransformGroup x:Name="group">
+                                <ScaleTransform x:Name="scale_t"/>
+                                <TranslateTransform x:Name="translate_t"/>
+                            </TransformGroup>
+                        </Image.RenderTransform>
+                    </Image>
+                </Border>
+            </Viewbox>
+        </DockPanel>
+        <Slider
+            Name="ZoomSlider"
+            MouseEnter="SliderMouseOver"
+            MouseLeave="SliderMouseLeave"
+            ValueChanged="ZoomSliderValueChanged"
+            Grid.Row="23"
+            Grid.ColumnSpan="2"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Width="{Binding ActualWidth, ElementName=WorldMap, Mode=OneWay}"
+            AutoToolTipPlacement="TopLeft"/>
+        <Popup Name="SliderTooltip"
+               Grid.Row="21"
+               Grid.Column="0"
+               Grid.ColumnSpan="2"
+               Grid.RowSpan="2"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center"
+               Opacity="0.75"
+               Placement="Mouse">
+            <Viewbox>
+                <TextBox Text="Zoom"/>
+            </Viewbox>
+        </Popup>
+
+
+        <!-- Dragon Head -->
+        <Viewbox Name="DragonHeadImage"
+                 Grid.Column="2"
+                 Grid.ColumnSpan="20"
+                 Grid.Row="0"
+                 Grid.RowSpan="20">
+            <Image Source="pack://application:,,,/OnlineResources/CharacterSheet/DndDragonTop.png"></Image>
+        </Viewbox>
         
+        <!-- Dragon Tail -->
+        <Viewbox Name="DragonTailImage"
+                 Grid.Column="43"
+                 Grid.ColumnSpan="30"
+                 Grid.Row="56"
+                 Grid.RowSpan="16">
+            <Image Source="pack://application:,,,/OnlineResources/CharacterSheet/DndDragonBottom.png"></Image>
+        </Viewbox>
+        
+        <!-- Name Box -->
+        <Viewbox Name="NameBorderImage"
+                 Grid.Column="25"
+                 Grid.ColumnSpan="20"
+                 Grid.Row="4"
+                 Grid.RowSpan="10">
+            <Image Source="pack://application:,,,/OnlineResources/CharacterSheet/DnDLongBox2.png"></Image>
+        </Viewbox>
+
+        <!-- Proficiency Box -->
+        <Viewbox Name="ProficiencyImage"
+                 Grid.Column="56"
+                 Grid.ColumnSpan="15"
+                 Grid.Row="16"
+                 Grid.RowSpan="10">
+            <Image Source="pack://application:,,,/OnlineResources/CharacterSheet/DndLongBox.png"></Image>
+        </Viewbox>
+
+        <!-- Proficiency2 Box -->
+        <Viewbox Name="Proficiency2Image"
+                 Grid.Column="56"
+                 Grid.ColumnSpan="15"
+                 Grid.Row="24"
+                 Grid.RowSpan="10">
+            <Image Source="pack://application:,,,/OnlineResources/CharacterSheet/DndLongBox.png"></Image>
+        </Viewbox>
+
+        <!-- Proficiency3 Box -->
+        <Viewbox Name="Proficiency3Image"
+                 Grid.Column="56"
+                 Grid.ColumnSpan="15"
+                 Grid.Row="32"
+                 Grid.RowSpan="10">
+            <Image Source="pack://application:,,,/OnlineResources/CharacterSheet/DndLongBox.png"></Image>
+        </Viewbox>
+
+        <!-- Armor Class Box -->
+        <Viewbox Name="ArmorClassImage"
+                 Grid.Column="56"
+                 Grid.ColumnSpan="7"
+                 Grid.Row="42"
+                 Grid.RowSpan="10">
+            <Image Source="pack://application:,,,/OnlineResources/CharacterSheet/DndHpBox.png"></Image>
+        </Viewbox>
+
+        <!-- Speed Box -->
+        <Viewbox Name="SpeedImage"
+                 Grid.Column="63"
+                 Grid.ColumnSpan="7"
+                 Grid.Row="42"
+                 Grid.RowSpan="10">
+            <Image Source="pack://application:,,,/OnlineResources/CharacterSheet/DndSpeedBox.png"></Image>
+        </Viewbox>
+
+        <!-- Abilities Box -->
+        <Viewbox Name="AbilitiesImage"
+                 Grid.Column="72"
+                 Grid.ColumnSpan="28"
+                 Grid.Row="15"
+                 Grid.RowSpan="50">
+            <Image Source="pack://application:,,,/OnlineResources/CharacterSheet/DndSavingThrowBox.png"></Image>
+        </Viewbox>
+
+        <!-- Items Box -->
+        <Viewbox Name="ItemsImage"
+                 Grid.Column="0"
+                 Grid.ColumnSpan="40"
+                 Grid.Row="66"
+                 Grid.RowSpan="12">
+            <Image Source="pack://application:,,,/OnlineResources/CharacterSheet/DnDNameBoxModified.png"></Image>
+        </Viewbox>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--  Strength Icon -->
+        <Viewbox Name="StrengthIconImage"
+            Grid.Column="48"
+            Grid.Row="3"
+            Grid.ColumnSpan="8"
+            Grid.RowSpan="12">
+            <Image Source="pack://application:,,,/OnlineResources/Icons/shield-no-bg.png"></Image>
+        </Viewbox>
+
+        <!--  Dexterity Icon -->
+        <Viewbox Name="DexterityIconImage"
+            Grid.Column="56"
+            Grid.Row="3"
+            Grid.ColumnSpan="8"
+            Grid.RowSpan="12">
+            <Image Source="pack://application:,,,/OnlineResources/Icons/shield-no-bg.png"></Image>
+        </Viewbox>
+        
+        <!--  Constitution Icon -->
+        <Viewbox Name="ConstitutionIconImage"
+            Grid.Column="64"
+            Grid.Row="3"
+            Grid.ColumnSpan="8"
+            Grid.RowSpan="12">
+            <Image Source="pack://application:,,,/OnlineResources/Icons/shield-no-bg.png"></Image>
+        </Viewbox>
+
+        <!--  Intelligence Icon -->
+        <Viewbox Name="IntelligenceIconImage"
+            Grid.Column="72"
+            Grid.Row="3"
+            Grid.ColumnSpan="8"
+            Grid.RowSpan="12">
+            <Image Source="pack://application:,,,/OnlineResources/Icons/shield-no-bg.png"></Image>
+        </Viewbox>
+
+        <!--  Wisdom Icon -->
+        <Viewbox Name="WisdomIconImage"
+            Grid.Column="80"
+            Grid.Row="3"
+            Grid.ColumnSpan="8"
+            Grid.RowSpan="12">
+            <Image Source="pack://application:,,,/OnlineResources/Icons/shield-no-bg.png"></Image>
+        </Viewbox>
+
+        <!--  Charisma Icon -->
+        <Viewbox Name="CharismaIconImage"
+            Grid.Column="88"
+            Grid.Row="3"
+            Grid.ColumnSpan="8"
+            Grid.RowSpan="12">
+            <Image Source="pack://application:,,,/OnlineResources/Icons/shield-no-bg.png"></Image>
+        </Viewbox>
+
+        <!--  Dexterity Icon - Old --><!--
+        <Canvas Name="DexterityIconCanvas"
+                Grid.Column="2"
+                Grid.Row="4"
+                Grid.ColumnSpan="3"
+                Grid.RowSpan="5"
+                Width="auto"
+                Height="auto">
+            <Image Canvas.Left="auto"
+                   Source="OnlineResources\shield-no-bg.png"
+                   Width="{Binding ActualWidth, ElementName=DexterityIconCanvas, Mode=OneWay}"
+                   Height="{Binding ActualHeight, ElementName=DexterityIconCanvas, Mode=OneWay}"/>
+        </Canvas>
+        <Viewbox
+            Grid.Column="3"
+            Grid.Row="5"
+            Width="auto"
+            Height="auto"
+            DockPanel.Dock="Bottom">
+            <TextBlock
+                Text="Dex"
+                Foreground="White"
+                FontWeight="Bold">
+            </TextBlock>
+        </Viewbox>
+        <Viewbox
+            Grid.Column="3"
+            Grid.Row="6"
+            Width="auto"
+            Height="auto"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
+            DockPanel.Dock="Bottom">
+            <TextBlock
+                Text="14"
+                Foreground="Orange">
+            </TextBlock>
+        </Viewbox>-->
+
+
+
+
+
+        <!-- Item Tree -->
+        <TreeView
+            Background="Transparent"
+            Grid.Row="24"
+            Grid.RowSpan="4">
+            <TreeViewItem
+                Header="Food/Potions"
+                IsExpanded="True"
+                FontWeight="Bold"
+                Foreground="#FF3C2804">
+                <TreeViewItem
+                    Header="Health Potion"
+                    FontWeight="Normal">
+                </TreeViewItem>
+            </TreeViewItem>
+            <TreeViewItem
+                    Header="Misc"
+                    IsExpanded="True"
+                    FontWeight="Bold"
+                    Foreground="#FF3C2804">
+                <TreeViewItem
+                    Header="100 GP"
+                    FontWeight="Normal">
+                </TreeViewItem>
+            </TreeViewItem>
+            <TreeViewItem
+                    Header="Apparel"
+                    IsExpanded="True"
+                    FontWeight="Bold"
+                    Foreground="#FF3C2804">
+                <TreeViewItem
+                    Header="Chain Mail"
+                    FontWeight="Normal">
+                </TreeViewItem>
+            </TreeViewItem>
+            <TreeViewItem
+                    Header="Weapons"
+                    IsExpanded="True"
+                    FontWeight="Bold"
+                    Foreground="#FF3C2804">
+                <TreeViewItem
+                    Header="LongSword"
+                    FontWeight="Normal">
+                </TreeViewItem>
+            </TreeViewItem>
+        </TreeView>
+
+        <!-- Specific Skills -->
+        <Viewbox
+            Grid.Column="5"
+            Grid.ColumnSpan="1"
+            Grid.Row="7"
+            Grid.RowSpan="1"
+            Width="auto"
+            Height="auto">
+            <TextBlock
+                Text="Skill">
+            </TextBlock>
+        </Viewbox>
+        <DockPanel
+            Grid.Column="6"
+            Grid.ColumnSpan="1"
+            Grid.Row="4"
+            Grid.RowSpan="4">
+            <Viewbox
+                DockPanel.Dock="Bottom"
+                Height="auto"
+                Width="auto">
+                <Viewbox.LayoutTransform>
+                    <RotateTransform CenterX="0" CenterY="0" Angle="270"/>
+                </Viewbox.LayoutTransform>
+                <TextBlock
+                       Text="Skill Modifiers">
+                </TextBlock>
+            </Viewbox>
+        </DockPanel>
+        <DockPanel
+            Grid.Column="7"
+            Grid.ColumnSpan="1"
+            Grid.Row="4"
+            Grid.RowSpan="4">
+            <Viewbox
+                DockPanel.Dock="Bottom"
+                Height="auto"
+                Width="auto">
+                <Viewbox.LayoutTransform>
+                    <RotateTransform CenterX="0" CenterY="0" Angle="270"/>
+                </Viewbox.LayoutTransform>
+                <TextBlock
+                       Text="Class Modifiers">
+                </TextBlock>
+            </Viewbox>
+        </DockPanel>
+        <DockPanel
+            Grid.Column="8"
+            Grid.ColumnSpan="1"
+            Grid.Row="4"
+            Grid.RowSpan="4">
+            <Viewbox
+                DockPanel.Dock="Bottom"
+                Height="auto"
+                Width="auto">
+                <Viewbox.LayoutTransform>
+                    <RotateTransform CenterX="0" CenterY="0" Angle="270"/>
+                </Viewbox.LayoutTransform>
+                <TextBlock
+                       Text="Skill Total">
+                </TextBlock>
+            </Viewbox>
+        </DockPanel>
+
+
+
+
+
+
+
+
     </Grid>
 </Window>
